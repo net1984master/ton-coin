@@ -4,7 +4,7 @@ import {Address, TonClient} from 'ton';
 
 async function main() {
     const wallet = Address.parse('EQD6iRs4CNQ6bWHUQUNDlxj2YjtKBkKGKPaZhN2pL3PzLDzN');
-    const collection = Address.parse('EQDdnBr6Ch6HaqiacTf5i6tTzlqY5ZSvyi81APLOhk211CZm');
+    const collection = Address.parse('EQDk8N7xM5D669LC2YACrseBJtDyFqwtSPCNhRWXU7kjEptX');
 
     const client = new TonClient({
         endpoint: 'https://testnet.toncenter.com/api/v2/jsonRPC',
